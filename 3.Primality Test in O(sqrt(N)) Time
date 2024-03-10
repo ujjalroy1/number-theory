@@ -14,7 +14,7 @@ using ordered_multiset = tree <type1, null_type, less_equal <type1>, rb_tree_tag
 //o_set.order_of_key(5) ;(strictly less then i for multi order set)
 #define yes cout << "YES\n"
 #define no cout << "NO\n"
-isprime(ll n)
+bool isprime(ll n)
 {
       if(n==1||n==0)return false;
      for(ll i=2;i*i<=n;i++)
